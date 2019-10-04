@@ -26,4 +26,5 @@ def decompose(wavelet):
 			approxs.to_csv('C:/Users/TheNush07/Desktop/Work/Projects/StreamFlow Forecasting/Datasets/Decomps/Navalgund/L{}/approxs-{}.csv'.format(i, wlt), index=False)
 			details.to_csv('C:/Users/TheNush07/Desktop/Work/Projects/StreamFlow Forecasting/Datasets/Decomps/Navalgund/L{}/details-{}.csv'.format(i, wlt), index=False)
 
+# run decompose function for different wavelet families
 decompose(wavelets[3])
